@@ -1,0 +1,92 @@
+/* -- Backgrounds -- */
+.wj-content:not(.customEdit),
+div[wj-part='cells'] {
+  color: #2c3e50;
+  background: #e9eef0;
+}
+.wj-content:not(.customEdit) .wj-input-group .wj-form-control {
+  color: #2c3e50;
+  background: #e9eef0;
+}
+.wj-listbox-item:not(.wj-state-selected):hover,
+.wj-alt:not(.wj-state-selected):not(.wj-state-multi-selected) {
+  background: rgba(0, 0, 0, 0.04);
+}
+/* -- Headers -- */
+.wj-header {
+  background: #2c3e50;
+  color: #ffffff;
+}
+.wj-flexgrid .wj-group {
+  background: #76818d;
+  color: #dddfe2;
+}
+/* -- Grid -- */
+div[wj-part='root'] {
+  background: #e0e0e0;
+}
+.wj-state-selected {
+  background: #798d8f;
+  color: #ffffff;
+}
+.wj-state-multi-selected {
+  background: #95a5a6;
+  color: #ffffff;
+}
+.wj-input-group .wj-form-control,
+.wj-grid-editor {
+  background: #fff;
+  color: #000000;
+}
+div[wj-part='rhcells'] .wj-header {
+  background: #2c3e50;
+}
+.wj-cell {
+  border-right: 0px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 0px solid rgba(0, 0, 0, 0.2);
+}
+/* -- Buttons -- */
+.wj-content:not(.customEdit) .wj-input-group-btn > .wj-btn,
+.wj-content:not(.customEdit) .wj-btn-group > .wj-btn {
+  background: #18bc9c;
+  color: #ffffff;
+}
+.wj-content:not(.customEdit) .wj-input-group-btn > .wj-btn:hover,
+.wj-content:not(.customEdit) .wj-btn-group > .wj-btn:hover {
+  background: #128f76;
+  color: #ffffff;
+}
+.wj-content:not(.customEdit) .wj-input-group-btn > .wj-btn:focus,
+.wj-content:not(.customEdit) .wj-btn-group > .wj-btn:focus {
+  background: #128f76;
+  color: #ffffff;
+}
+.wj-content:not(.customEdit):not(.wj-dropdown-panel):not(.wj-listbox):not(.wj-flexgrid):not(.wj-calendar-outer) {
+  border: 0px solid rgba(0, 0, 0, 0.2);
+}
+.wj-btn-default {
+  border: 0px solid rgba(0, 0, 0, 0.2);
+}
+.wj-input-group-btn > .wj-btn {
+  border: 0px;
+}
+/* -- Border Radii -- */
+.wj-content,
+.wj-input-group,
+.wj-btn-group,
+.wj-btn-group-vertical,
+.wj-tooltip,
+.customEdit {
+  border-radius: 0px;
+}
+/* -- Tooltip -- */
+.wj-tooltip {
+  background: #95a5a6;
+  color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+/* -- Gauges -- */
+.wj-gauge .wj-pointer path {
+  fill: #798d8f;
+}
+
